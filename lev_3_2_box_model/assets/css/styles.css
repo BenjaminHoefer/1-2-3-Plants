@@ -1,0 +1,179 @@
+/* Import fonts */
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fredericka";
+    src: url(../fonts/FrederickatheGreat-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General layout */
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/plants.jpg");
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.887);
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    padding: 15px 0 0 50px;
+}
+
+header article {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+header article h2 {
+    margin-top: 150px;
+    padding: 20px;
+}
+
+header article p {
+    padding-bottom: 10px;
+}
+
+header article button {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.887);
+    border: 0.5px solid rgba(255, 255, 255, 0.887);
+    padding: 5px 30px 5px 30px;
+}
+
+header article button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header nav ul {
+    margin: 180px 100px 25px 1150px;
+    width: 100px;
+    height: 100px;
+}
+
+header nav ul li {
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+header nav ul a {
+    color: rgba(255, 255, 255, 0.887);;
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main article {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+main article h3 {
+    font-size: 20px;
+    margin: 25px auto 25px auto;
+}
+
+main article p {
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+main article button {
+    margin: 20px auto 20px auto;
+    border: 3px double rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 75px;
+}
+
+footer {
+    background-color: rgba(33, 31, 31, 0.899);
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0 0 0 1210px;
+    padding-bottom: 20px;
+}
+
+footer nav li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+
+footer article {
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer article p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+footer article button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: fredericka;
+}
+
+p, a, button {
+    font-family: opensans;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
